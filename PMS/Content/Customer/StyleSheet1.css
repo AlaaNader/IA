@@ -1,0 +1,47 @@
+﻿body {
+ 
+    font-family: "Lato", sans-serif;
+}
+.h2 {
+        font-size:30px;
+        float:left;
+}
+.sidebar {
+    height: 100%;
+    width: 250px;
+    float: right;
+    position: absolute;
+    margin-left: 85%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+    .sidebar a {
+        padding: 8px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+       float:left;
+        color: #818181;
+        display: block;
+    }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+        .sidebar a {
+            font-size: 18px;
+        }
+}
+
